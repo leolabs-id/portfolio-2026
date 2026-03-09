@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tosca: #2dd4bf;
+  --color-orange: #f97316;
+  --color-rich-black: #111827;
+  --color-muted-gray: #6b7280;
+  
+  /* Font Serif untuk Judul agar Elegan */
+  --font-serif: "ui-serif", "Georgia", "serif";
+  /* Font Sans untuk Body agar Clean ala Bootstrap */
+  --font-sans: "Inter", "system-ui", "-apple-system", "sans-serif";
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-rich-black antialiased;
+    font-family: var(--font-sans);
+  }
+}
