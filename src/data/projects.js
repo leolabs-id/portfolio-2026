@@ -6,7 +6,7 @@ export const projects = [
     insight: "Increased conversion efficiency by 25% through predictive modeling.",
     description: "Complex data analysis deployed using Streamlit to visualize multi-channel campaign ROI.",
     tags: ["Python", "SQL", "Streamlit"],
-    image: "/2.jpg",
+    image: "2.jpg",
     link: "https://your-streamlit-link.com"
   },
   {
@@ -16,7 +16,7 @@ export const projects = [
     insight: "Boosted engagement by 40% using trend-based content strategy.",
     description: "Data-backed content planning and performance tracking for brand growth.",
     tags: ["Google Analytics", "Ads", "Content Strategy"],
-    image: "/1.png",
+    image: "1.png",
     link: "https://your-behance-or-report-link.com"
   },
   {
