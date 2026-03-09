@@ -11,7 +11,7 @@ function App() {
     <div className="selection:bg-tosca/20">
       <Header />
 
-      <main className="max-w-5xl mx-auto px-6">
+      <main className="max-w-6xl mx-auto px-6">
         <Hero />
         <About />
         <Works />
