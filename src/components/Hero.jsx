@@ -65,7 +65,7 @@ const Hero = () => {
                  WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)' 
                }}>
             <img 
-              src="testa.png" 
+              src={`${import.meta.env.BASE_URL}testa.png`}
               alt="Leonard Ari Raharja" 
               className="w-full h-auto object-cover object-top block" 
             />
